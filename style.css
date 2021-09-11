@@ -1,0 +1,189 @@
+@charset "utf-8";
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: block;
+  max-height: 1000000px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: normal;
+}
+
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  z-index: 98;
+  background-color: #efefef;
+  padding: 10px 0 20px;
+  color: #c61a1a;
+  text-align: center;
+}
+.logo img{
+  max-width: 300px;
+  margin: auto;
+}
+
+footer {
+  clear: both;
+  padding-top: 50px;
+  position: relative;
+  z-index: 50;
+  background: #363636;
+  width: 100%;
+  height: 200px;
+  color: #efefef;
+}
+footer h3 {
+  width: 100%;
+  max-width: 1300px;
+  margin: auto;
+}
+footer ul {
+  padding-top: 20px;
+  width: 100%;
+  max-width: 1300px;
+  margin: auto;
+  font-size: 0.875rem;
+  letter-spacing: -0.42px;
+  line-height: 22px;
+  color: #929292;
+}
+
+section {
+  padding: 20px 0 50px;
+  clear: both;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  vertical-align: middle;
+  width: 100%;
+}
+
+.w-hite {
+  width: 100%;
+  height: 120px;
+
+}
+
+.wrap {
+  position: relative;
+  margin: auto;
+  max-width: 1300px;
+  width:100%;
+}
+
+.wtoon {
+    width: 205px;
+    padding: 0 7px 14px;
+    float: left; 
+      
+}
+.w-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 200px; 
+}
+
+.border-line {
+  border-bottom: 1px solid #676767;
+}
+
+.listup {
+  zoom: 1;
+  margin: 14px -7px 0;
+}
+.w-theme {
+  position: relative;
+  margin: 20px auto;
+  max-width: 1300px;
+  width:100%;
+}
+.checkfilter {
+  padding: 0 7px;
+}
+.checkfilter h3 {
+  clear: both;
+  padding: 7px 0;
+}
+
+.checkfilter input {
+  float:left;
+  margin:5px 3px 3px 4px;
+}
+
+.checkfilter div {
+  float:left;
+  width:140px;
+}
+.e-white {
+  width: 100%;
+  height: 100px;
+  clear: both;
+}
+
+/*메뉴*/
+
+#blogMenu {
+  width: 205px;
+  
+}
+#blogMenu ul li {
+	background-color: #676767;
+  color: #efefef;
+	list-style-type:none;
+  
+}
+#blogMenu span {
+  padding-left: 7px;
+}
+#blogMenu a {
+	text-decoration:none;
+  padding-left: 7px;
+}
+
+#blogMenu a:hover {
+	
+	border-bottom:3px solid #FAED7D;
+}
+
+#blogMenu ul ul {
+	display:none;
+  position: absolute;
+}
+
+#blogMenu ul li:hover ul {
+	display: block;
+  
+}
+
+#blogMenu ul ul li {
+	float:none;
+  width: 205px;
+  
+}

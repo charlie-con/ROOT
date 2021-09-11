@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>ROOT-모든 웹콘텐츠의 합법 루트</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+    </head>
+    <body>
+        
+            <header>
+                <div class="logo"><img src="img/logo_1.png"></div>
+                <nav>
+                
+                </nav>
+                <div></div>
+            </header>
+            <div class="w-hite"></div>
+            <!--웹툰 썸네일-->
+            <div class="w-theme">
+                <div class="checkfilter">
+                <h3>연재요일</h3>
+                <div><input type="checkbox" name="day" value="mon" id="mon"><label for="mon">월요일</label></div>
+                <div><input type="checkbox" name="day" value="tue" id="tue"><label for="tue">화요일</label></div>
+                <div><input type="checkbox" name="day" value="wed" id="wed"><label for="wed">수요일</label></div>
+                <div><input type="checkbox" name="day" value="thu" id="thu"><label for="thu">목요일</label></div>
+                <div><input type="checkbox" name="day" value="fri" id="fri"><label for="fri">금요일</label></div>
+                <div><input type="checkbox" name="day" value="sat" id="sat"><label for="sat">토요일</label></div>
+                <div><input type="checkbox" name="day" value="sun" id="sun"><label for="sun">일요일</label></div>
+                <div><input type="checkbox" name="day" value="fin" id="fin"><label for="fin">완결</label></div>
+                </div>
+
+                <div class="checkfilter">
+                    <h3>연재일</h3>
+                    <div><input type="checkbox" name="date" value="one" id="one"><label for="one">1일</label></div>
+                    <div><input type="checkbox" name="date" value="two" id="two"><label for="two">2일</label></div>
+                    <div><input type="checkbox" name="date" value="thr" id="thr"><label for="thr">3일</label></div>
+                    <div><input type="checkbox" name="date" value="fou" id="fou"><label for="fou">4일</label></div>
+                    <div><input type="checkbox" name="date" value="fiv" id="fiv"><label for="fiv">5일</label></div>
+                    <div><input type="checkbox" name="date" value="six" id="six"><label for="six">6일</label></div>
+                    <div><input type="checkbox" name="date" value="sev" id="sev"><label for="sev">7일</label></div>
+                    <div><input type="checkbox" name="date" value="eig" id="eig"><label for="eig">8일</label></div>
+                    <div><input type="checkbox" name="date" value="nin" id="nin"><label for="nin">9일</label></div>
+                    <div><input type="checkbox" name="date" value="ten" id="ten"><label for="ten">10일</label></div>
+                </div>
+
+                <div class="checkfilter">
+                <h3>일반 / 성인</h3>
+                <div><input type="checkbox" name="adult" value="notadult" id="notadult"><label for="notadult">일반</label></div>
+                <div><input type="checkbox" name="adult" value="adult" id="adult"><label for="adult">성인</label></div>
+                </div>
+
+                <div class="checkfilter">
+                <h3>플랫폼</h3>
+                <div><input type="checkbox" name="platform" value="series" id="series"><label for="series">네이버시리즈</label></div>
+                <div><input type="checkbox" name="platform" value="page" id="page"><label for="page">카카오페이지</label></div>
+                <div><input type="checkbox" name="platform" value="rezin" id="rezin"><label for="rezin">레진코믹스</label></div>
+                <div><input type="checkbox" name="platform" value="ridi" id="ridi"><label for="ridi">리디북스</label></div>
+                <div><input type="checkbox" name="platform" value="bookcube" id="bookcube"><label for="bookcube">북큐브</label></div>                
+                <div><input type="checkbox" name="platform" value="bom" id="bom"><label for="bom">봄툰</label></div>
+                <div><input type="checkbox" name="platform" value="netcomics" id="netcomics"><label for="netcomics">넷코믹스</label></div>              
+                <div><input type="checkbox" name="platform" value="penut" id="penut"><label for="penut">피넛툰</label></div>
+                <div><input type="checkbox" name="platform" value="witch" id="witch"><label for="witch">마녀코믹스</label></div>
+                </div>
+            </div>
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+            <section>
+                <div class="wrap">
+                    <ul class="listup">
+                        <li class="wtoon sat adult notadult bookcube series page">
+                            <div class="border-line">
+                                <div id="blogMenu">
+                                    <ul>
+                                    <li><span>보러가기</span>
+                                    <ul>
+                                    <li><a href="https://www.bookcube.com/toon/detail.asp?webtoon_num=190061&page=buy" target="_blank">북큐브(19)</a></li>
+                                    <li><a href="https://series.naver.com/comic/detail.series?productNo=4711792" target="_blank">네이버시리즈</a></li>
+                                    <li><a href="https://page.kakao.com/home?seriesId=53731361" target="_blank">카카오페이지</a></li>
+                                    </ul>
+                                    </li>                                
+                                    </ul>
+                                </div>
+                                <div class="w-img">
+                                    <img src="img/img_1.jpg">
+                                </div>
+                                <div>
+                                    <p class="w-title">그 알파를 꼬시는 법</p>
+                                    <p class="w-aut">킴녕</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="wtoon fin notadult bookcube series page netcomics">
+                            <div class="border-line">
+                                <div id="blogMenu">
+                                    <ul>
+                                    <li><span>보러가기</span>
+                                    <ul>
+                                    <li><a href="https://www.netcomics.com/ko/comic/%EC%A3%BD%EC%9D%80-%EB%82%A8%EC%9E%90" target="_blank">넷코믹스</a></li>
+                                    <li><a href="https://www.bookcube.com/toon/detail.asp?webtoon_num=180274&page=buy" target="_blank">북큐브</a></li>
+                                    <li><a href="https://series.naver.com/comic/detail.series?productNo=3171793" target="_blank">네이버시리즈</a></li>
+                                    <li><a href="https://page.kakao.com/home?seriesId=50731662&orderby=desc" target="_blank">카카오페이지</a></li>
+                                    </ul>
+                                    </li>                                
+                                    </ul>
+                                    </div>
+                                <div class="w-img">
+                                    <img src="img/img_2.jpg">
+                                </div>
+                                <div>
+                                    <p class="w-title">죽은 남자</p>
+                                    <p class="w-aut">킴녕</p>
+                                </div>
+                                
+                            </div>        
+                        </li>
+                        <li class="wtoon fin adult notadult bookcube series page netcomics">
+                            <div class="border-line">
+                                <div id="blogMenu">
+                                    <ul>
+                                    <li><span>보러가기</span>
+                                    <ul>
+                                    <li><a href="https://www.netcomics.com/ko/comic/%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EB%82%A8%EC%9E%90-%EC%A3%BD%EC%9D%80-%EB%82%A8%EC%9E%90-%EC%99%B8%EC%A0%84" target="_blank">넷코믹스(19)</a></li>
+                                    <li><a href="https://www.bookcube.com/toon/detail.asp?webtoon_num=180275&page=buy" target="_blank">북큐브(19)</a></li>
+                                    <li><a href="https://series.naver.com/comic/detail.series?productNo=3458179&isWebtoonAgreePopUp=true" target="_blank">네이버시리즈(19)</a></li>
+                                    <li><a href="https://page.kakao.com/home?seriesId=50731662&orderby=desc" target="_blank">카카오페이지</a></li>
+                                    </ul>
+                                    </li>                                
+                                    </ul>
+                                    </div>
+                            <div class="w-img">
+                                <img src="img/img_3.jpg">
+                            </div>
+                            <div>
+                                <p class="w-title">그리고 남자 [죽은 남자 외전]</p>
+                                <p class="w-aut">킴녕</p>
+                            </div>
+                            </div>
+                            </li>
+                            <li class="wtoon eig adult rezin">
+                                <div class="border-line">
+                                    <div id="blogMenu">
+                                        <ul>
+                                        <li><span>보러가기</span>
+                                        <ul>
+                                        <li><a href="https://www.lezhin.com/ko/comic/longtime_redmall" target="_blank">레진코믹스(19)</a></li>
+                                        
+                                        </ul>
+                                        </li>                                
+                                        </ul>
+                                    </div>
+                                <div class="w-img">
+                                    <img src="img/img_4.jpg">
+                                </div>
+                                <div>
+                                    <p class="w-title">롱타임 레드몰</p>
+                                    <p class="w-aut">KJK</p>
+                                </div>
+                                </div>
+                            </li>
+                            <li class="wtoon sun adult bom">
+                                <div class="border-line">
+                                <div class="w-img">
+                                    <div id="blogMenu">
+                                        <ul>
+                                        <li><span>보러가기</span>
+                                        <ul>
+                                        <li><a href="https://www.bomtoon.com/comic/ep_list/nun_tiger/?p_id=adwords2581" target="_blank">봄툰(19)</a></li>
+                                        </ul>
+                                        </li>                                
+                                        </ul>
+                                    </div>
+                                    <img src="img/img_5.jpg">
+                                </div>
+                                <div>
+                                    <p class="w-title">눈에 범이 서리다</p>
+                                    <p class="w-aut">감러</p>
+                                </div>
+                                </div>
+                            </li>
+                            <li class="wtoon fiv adult ridi">
+                                <div class="border-line">
+                                <div class="w-img">
+                                    <div id="blogMenu">
+                                        <ul>
+                                        <li><span>보러가기</span>
+                                        <ul>
+                                        <li><a href="https://ridibooks.com/books/4443000578?_s=search&_q=%EB%85%B9%EC%83%89%EC%A0%84%EC%83%81" target="_blank">리디북스(19)</a></li>
+                                        
+                                        </ul>
+                                        </li>                                
+                                        </ul>
+                                    </div>
+                                    <img src="img/img_6.jpg">
+                                </div>
+                                <div>
+                                    <p class="w-title">녹색전상</p>
+                                    <p class="w-aut">잭스</p>
+                                </div>
+                                </div>
+                            </li>
+
+                            <li class="wtoon fin adult notadult rezin ridi series">
+                                <div class="border-line">
+                                <div class="w-img">
+                                    <div id="blogMenu">
+                                        <ul>
+                                        <li><span>보러가기</span>
+                                        <ul>
+                                        <li><a href="https://www.lezhin.com/ko/comic/gorani" target="_blank">레진코믹스(19)</a></li>
+                                        <li><a href="https://www.lezhin.com/ko/comic/gorani_15" target="_blank">레진코믹스</a></li>
+                                        <li><a href="https://ridibooks.com/books/565026652?_s=search&_q=%EA%B3%A0%EB%9E%80%EC%9D%B4%EC%A0%84&_rdt_sid=search&_rdt_idx=1" target="_blank">리디북스(19)</a></li>
+                                        <li><a href="https://ridibooks.com/books/565026904?_s=search&_q=%EA%B3%A0%EB%9E%80%EC%9D%B4%EC%A0%84&_rdt_sid=search&_rdt_idx=2" target="_blank">리디북스</a></li>
+                                        <li><a href="https://series.naver.com/comic/detail.series?productNo=5208775" target="_blank">네이버시리즈(19)</a></li>
+                                        <li><a href="https://series.naver.com/comic/detail.series?productNo=5139372" target="_blank">네이버시리즈</a></li>
+                                        </ul>
+                                        </li>                                
+                                        </ul>
+                                    </div>
+                                    <img src="img/img_7.jpg">
+                                </div>
+                                <div>
+                                    <p class="w-title">고란이 전</p>
+                                    <p class="w-aut">chychy</p>
+                                </div>
+                                </div>
+                            </li>
+                        </div>                                   
+                    </ul>
+                    </div>
+                    </li>
+
+                    </ul>
+                </div>
+            </section>
+        
+            <!-- partial -->
+            
+            <script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js'></script>
+            <script  src="./info.js"></script>
+            
+            <div class="e-white"></div>
+            <footer>
+                <h3>루트 ROOT</h3>
+                <ul>
+                    <li>해당 웹사이트는 웹콘텐츠의 합법적인 보러가기 정보를 알려드리는 정보 제공 사이트입니다.</li>
+                    <li>개인이 운영하기 때문에 업데이트가 지속적이지 않을 수 있습니다.</li>
+                </ul>
+            </footer>
+        
+    </body>
+</html>
